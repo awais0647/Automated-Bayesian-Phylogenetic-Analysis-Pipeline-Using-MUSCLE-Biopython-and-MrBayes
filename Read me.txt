@@ -1,0 +1,20 @@
+# Baysian Phylogenetics Pipeline
+
+This repository contains a reproducible pipeline for Baysian phylogenetic analysis of using MUSCLE and MrBayes.
+
+## 🔹 Workflow
+1. Multiple sequence alignment with MUSCLE
+2. Convert alignment to NEXUS format
+3. Bayesian phylogenetic inference with MrBayes
+4. Consensus tree visualization with Fig tree
+
+## 🔧 Dependencies
+- Python 3.9+
+- [MUSCLE](http://www.drive5.com/muscle)
+- [MrBayes](https://nbisweden.github.io/MrBayes/)
+- Biopython
+
+Install with Conda:
+```bash
+conda env create -f environment.yml
+conda activate markhor-phylo
